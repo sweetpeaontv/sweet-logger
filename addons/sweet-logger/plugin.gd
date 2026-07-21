@@ -2,7 +2,7 @@
 extends EditorPlugin
 
 const AUTOLOAD_NAME := "SweetLogger"
-const AUTOLOAD_PATH := "res://addons/sweet-logger/SweetLogger.gd"
+const AUTOLOAD_PATH := "res://addons/sweet-logger/sweet_logger.gd"
 
 func _enter_tree() -> void:
 	var key := "autoload/%s" % AUTOLOAD_NAME
