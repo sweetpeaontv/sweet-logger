@@ -1,4 +1,4 @@
-# <img src="sweet-logger.png" alt="" width="64"> Sweet Logger
+# <img src="addons/sweet-logger/sweet-logger.png" alt="" width="64"> Sweet Logger
 ## hey - sweet logger you got there!
 
 A Godot 4 addon that makes reading logs and debugging sane when you run multiple game instances at once.
@@ -6,6 +6,8 @@ A Godot 4 addon that makes reading logs and debugging sane when you run multiple
 It's meant as a drop-in/stand-in for `print()`: same habit of sprinkling logs through your systems, but every line carries more context - which peer printed it, what kind of log it is, which script and function it came from. That makes it much easier to follow what each client (and the server) is doing when several instances share one console.
 
 When you're testing multiplayer locally (host + clients in separate run instances), the editor console fills with interleaved output from every peer. Sweet Logger formats each line the same way so you can tell at a glance **what kind of log it is**, **which peer it came from**, **when it happened**, and **which script/function** produced it.
+
+![Example console output](addons/sweet-logger/log-example.png)
 
 
 ## Features
