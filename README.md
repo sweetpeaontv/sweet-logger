@@ -1,4 +1,4 @@
-# <img src="sweet-logger.png" alt="" width="128"> Sweet Logger
+# <img src="sweet-logger.png" alt="" width="64"> Sweet Logger
 ## hey - sweet logger you got there!
 ---
 
