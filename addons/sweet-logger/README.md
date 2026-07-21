@@ -1,10 +1,6 @@
-# Sweet Logger
-
-![Sweet Logger](sweet-logger.png)
-
----
-
+# <img src="sweet-logger.png" alt="" width="128"> Sweet Logger
 ## hey - sweet logger you got there!
+---
 
 A Godot 4 addon that makes reading logs and debugging sane when you run multiple game instances at once.
 
