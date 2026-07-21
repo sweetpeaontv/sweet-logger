@@ -1,6 +1,5 @@
 # <img src="sweet-logger.png" alt="" width="64"> Sweet Logger
 ## hey - sweet logger you got there!
----
 
 A Godot 4 addon that makes reading logs and debugging sane when you run multiple game instances at once.
 
@@ -8,7 +7,6 @@ It's meant as a drop-in/stand-in for `print()`: same habit of sprinkling logs th
 
 When you're testing multiplayer locally (host + clients in separate run instances), the editor console fills with interleaved output from every peer. Sweet Logger formats each line the same way so you can tell at a glance **what kind of log it is**, **which peer it came from**, **when it happened**, and **which script/function** produced it.
 
----
 
 ## Features
 
@@ -19,7 +17,6 @@ When you're testing multiplayer locally (host + clients in separate run instance
 - **Local timestamps** - `mm:ss:ms` by default (optional hours)
 - **Rich console output** - uses `print_rich` with aligned columns
 
----
 
 ## Installation
 
@@ -36,7 +33,6 @@ When you're testing multiplayer locally (host + clients in separate run instance
 2. In Godot, open **Project → Project Settings → Plugins** and enable **Sweet Logger**.
 3. The plugin registers a `SweetLogger` autoload automatically.
 
----
 
 ## Usage
 
@@ -94,8 +90,6 @@ Each line is roughly:
 - **timestamp** - local time for correlating events across instances
 - **PEER** - `SERVER`, numeric client ID, or `DISCONNECTED`, each with a stable color
 - **script::function** - where the log was emitted (when you pass those args)
-
----
 
 ## Why this exists
 
