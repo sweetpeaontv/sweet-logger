@@ -71,7 +71,7 @@ SweetLogger.info("Spawned {0} at {1}", [entity_name, position], "spawner.gd", "s
 
 All methods share the same signature: message, optional format args, optional script name, optional function name.
 
-## Configuration
+### Configuration
 
 On the `SweetLogger` autoload (or in the inspector when selected):
 
@@ -82,7 +82,7 @@ On the `SweetLogger` autoload (or in the inspector when selected):
 | `SHOW_FUNCTION_NAME`   | `true`  | Include the function name column        |
 | `SHOW_TIMESTAMP_HOURS` | `false` | Use `hh:mm:ss:ms` instead of `mm:ss:ms` |
 
-## Log line layout
+### Log line layout
 
 Each line is roughly:
 
