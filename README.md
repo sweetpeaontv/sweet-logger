@@ -86,6 +86,7 @@ On the `SweetLogger` autoload (or in the inspector when selected):
 
 Each line is roughly:
 
+
 ```
 [LEVEL][timestamp][PEER][script::function] message
 ```
